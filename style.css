@@ -1,0 +1,73 @@
+#container {
+    width: 70%; /* Lebar kontainer */
+    margin: 0 auto; /* Auto margin secara horizontal akan memusatkan elemen dari kiri ke kanan */
+    min-height: 100vh;
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+  }
+
+p{
+    text-align: justify;
+    font-size: 18px;
+    margin: 0.5em 0;
+
+    
+}
+
+#judul{
+    font-size: 22px;
+    font-weight:bold ;
+}
+
+#judul2{
+    margin: 0.5em 3;
+    font-size: 19px;
+
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  .love {
+    position: absolute;
+    
+    background-image: url('pic/love.png'); 
+    background-size: cover;
+    transform-origin: center;
+  }
+  #background-image {
+    position: relative;
+  }
+  img{
+    width: 700px;
+  }
+
+  #tes{
+    position: absolute;
+    width: 200px;
+    left: 75%;
+  
+  
+  top: 5%;
+  
+  z-index: 1; 
+  }
+
+
+  @keyframes falling {
+    0% {
+        transform: translateY(-10vh) translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(110vh) translateX(20vw) rotate(360deg); 
+        opacity: 0;
+    }
+  }
